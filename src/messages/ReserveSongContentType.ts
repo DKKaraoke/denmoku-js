@@ -204,7 +204,7 @@ export enum ReserveSongContentType {
    */
   DamVocalUpload = 0x021e,
   /**
-   * Unkown
+   * Unknown
    */
   DamVocalUploadPay = 0x021f,
   /**
