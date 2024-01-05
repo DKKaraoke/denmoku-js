@@ -7,7 +7,9 @@
   "license": "UNLICENSED",
   "scripts": {
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
+    "format:dev": "prettier --check \"src/**/*.ts\" \"test/**/*.ts\"",
     "lint": "eslint \"{src,test}/**/*.ts\" --fix",
+    "lint:dev": "eslint --max-warnings=0 \"{src,test}/**/*.ts\" --fix",
     "test": "ts-node -r tsconfig-paths/register test/index.ts"
   },
   "private": true,
