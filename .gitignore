@@ -41,6 +41,10 @@ lerna-debug.log*
 .env.*
 !.env.example
 !.env.test
+.secrets
+.secrets.*
+!.secrets.example
+!.secrets.test
 
 # Temporary
 /tmp
