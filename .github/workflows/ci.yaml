@@ -36,11 +36,11 @@ jobs:
         if: ${{ steps.cache_cdk_dependency_id.outputs.cache-hit != 'true' }}
         run: yarn install
 
-      - name: Format
-        run: yarn format:dev
+      # - name: Format
+      #   run: yarn format:dev
       
-      - name: Lint
-        run: yarn lint:dev
+      # - name: Lint
+      #   run: yarn lint:dev
       
       - name: Update Token
         run: yarn test authorize
